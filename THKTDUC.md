@@ -72,6 +72,7 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 3. Số bát phân (Octal)
 4. Số thập lục phân (Hexdecimal
 *Tổng hợp hệ cơ số*
+
 | Số thập phân (Decimal) | Hệ nhị phân (Binary, Base 2) | Hệ bát phân (Octal, Base 8) | Hệ thập lục phân (Hexadecimal, Base 16) |
 |------------------------|------------------------------|-----------------------------|-----------------------------------------|
 | 0                      | 0                            | 0                           | 0                                       |
