@@ -1,8 +1,8 @@
 # Bài 1: Các khái niệm cơ bản
 ## Mục tiêu
 Trình bày được các khái niệm cơ bản về máy tính
-Nêu được các mốc quan trọng trong lịch sử hình thành và phát triển của máy tính, các thế hệ máy tính
-Nêu và giải thích được vai trò, chức năng, cách vận hành của các thành phần phần cứng của một náy tính
+- Nêu được các mốc quan trọng trong lịch sử hình thành và phát triển của máy tính, các thế hệ máy tính
+- Nêu và giải thích được vai trò, chức năng, cách vận hành của các thành phần phần cứng của một náy tính
 ## Giới thiệu về máy tính
 Máy tính thường được chia thành hai thành phần chính đó là:
 1. Phần cứng (Hardware)
@@ -56,11 +56,11 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 | Đơn vị      | Viết tắt | Kích thước                            |
 |-------------|----------|---------------------------------------|
 | Bit         | -        | Đơn vị nhỏ nhất                       |
-| Byte        | B        | 8 Bit                                |
-| KiloByte    | KB       | 2^10 Byte = 1024 Byte                |
-| MegaByte    | MB       | 2^10 KB = 1024 KB                    |
-| GigaByte    | GB       | 2^10 MB = 1024 MB                    |
-| TeraByte    | TB       | 2^10 GB = 1024 GB                    |
+| Byte        | B        | 8 Bit                                 |
+| KiloByte    | KB       | 2^10 Byte = 1024 Byte                 |
+| MegaByte    | MB       | 2^10 KB = 1024 KB                     |
+| GigaByte    | GB       | 2^10 MB = 1024 MB                     |
+| TeraByte    | TB       | 2^10 GB = 1024 GB                     |
 2. Số hóa dữ liệu
 - Lấy mẫu tín hiệu
 - Chuyển đổi tín hiệu điện – giá trị số
@@ -141,10 +141,10 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 - Debian
 - Hat Linux
 5. Học ở đâu
-| Tên | Liên kết                   |
-|------|----------------------------|
+| Tên    | Liên kết                                                                          |
+|------  |-----------------------------------------------------------------------------------|
 | GitHub | [Trang học GitHub](https://labex.io/courses/linux-basic-commands-practice-online) |
-| GitLab | [Trang học GitLub](https://vietjack.com/) |
+| GitLab | [Trang học GitLub](https://vietjack.com/)                                         |
 6. Nơi thực hành
 - Lựa chọn 1: Máy tính trong phòng Lab
  + Sử dụng Virtual Box
@@ -154,24 +154,24 @@ Máy tính thường được chia thành hai thành phần chính đó là:
  + Một tài khoản trên máy chủ Linux sẽ được tạo cho mỗi học sinh
 7. Hệ thống tệp Linux
 | directory | description                                  |
-|---------|----------------------------------------|
-| `/`     | Thư mục gốc chứa tất cả các thư mục  |
-| `/bin`  | Chứa ứng dụng/chương trình (binaries) |
-| `/dev`  | Thiết bị phần cứng                    |
-| `/etc`  | Chứa tệp cấu hình                     |
-| `/home` | Chứa thư mục chính của người dùng     |
-| `/proc` | Chứa thông tin về các quy trình đang chạy |
-| `/tmp`  | Chứa tệp tạm thời                     |
-| `/var`  | Chứa tệp thay đổi, chẳng hạn như tệp log |
-| `/usr`  | Chứa tài nguyên hệ thống phổ quát     |
+|---------|------------------------------------------------|
+| `/`     | Thư mục gốc chứa tất cả các thư mục            |
+| `/bin`  | Chứa ứng dụng/chương trình (binaries)          |
+| `/dev`  | Thiết bị phần cứng                             |
+| `/etc`  | Chứa tệp cấu hình                              |
+| `/home` | Chứa thư mục chính của người dùng              |
+| `/proc` | Chứa thông tin về các quy trình đang chạy      |
+| `/tmp`  | Chứa tệp tạm thời                              |
+| `/var`  | Chứa tệp thay đổi, chẳng hạn như tệp log       |
+| `/usr`  | Chứa tài nguyên hệ thống phổ quát              |
 8. Tên đường dẫn Linux
 9. Thư mục tương đối
-| directory            | description                             |
-|---------------------|-----------------------------------|
-| `.`                  | Tham khảo thư mục làm việc       |
+| directory            | description                                   |
+|----------------------|-----------------------------------------------|
+| `.`                  | Tham khảo thư mục làm việc                    |
 | `..`                 | Tham khảo thư mục cha mẹ của thư mục làm việc |
-| `~username`         | Thư mục chính của người dùng `username` |
-| `~/Desktop`         | Màn hình nền của người dùng       |
+| `~username`          | Thư mục chính của người dùng `username`        |
+| `~/Desktop`          | Màn hình nền của người dùng                    |
 10. The Shell
 11. Cấu trúc dòng lệnh
 - command [options] [arguments]
@@ -181,35 +181,35 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 ## Làm việc với lệnh Linux
 1. Lệnh Shell cơ bản
 | Command   | Description                           |
-|--------|----------------------------------|
-| `pwd`  | Hiển thị thư mục làm việc hiện tại |
-| `cd`   | Thay đổi thư mục làm việc      |
-| `ls`   | Liệt kê các tệp trong thư mục làm việc |
-| `man`  | Hiển thị hướng dẫn cho một lệnh |
-| `exit` | Đăng xuất khỏi shell           |
+|-----------|---------------------------------------|
+| `pwd`     | Hiển thị thư mục làm việc hiện tại    |
+| `cd`   | Thay đổi thư mục làm việc                |
+| `ls`   | Liệt kê các tệp trong thư mục làm việc   |
+| `man`  | Hiển thị hướng dẫn cho một lệnh          |
+| `exit` | Đăng xuất khỏi shell                     |
 2. Lệnh hệ thống
-| Command   | Description                                 |
-|---------|----------------------------------------|
-| `clear` | Xóa tất cả đầu ra khỏi bảng điều khiển |
+| Command | Description                           |
+|---------|---------------------------------------|
+| `clear` | Xóa tất cả đầu ra khỏi bảng điều khiển|
 | `date`  | Xuất ngày và giờ hệ thống             |
 | `cal`   | Xuất lịch tháng dưới dạng văn bản     |
 | `uname` | In thông tin về hệ thống hiện tại     |
 3. Lệnh thư mục
-| Command    | Description                                  |
+| Command    | Description                          |
 |---------|-----------------------------------------|
-| `ls`    | Liệt kê các tệp trong thư mục làm việc |
-| `pwd`   | In thư mục làm việc hiện tại          |
-| `cd`    | Thay đổi thư mục làm việc             |
-| `mkdir` | Tạo một thư mục mới                   |
-| `rmdir` | Xóa thư mục đã cho (phải trống)       |
+| `ls`    | Liệt kê các tệp trong thư mục làm việc  |
+| `pwd`   | In thư mục làm việc hiện tại            |
+| `cd`    | Thay đổi thư mục làm việc               |
+| `mkdir` | Tạo một thư mục mới                     |
+| `rmdir` | Xóa thư mục đã cho (phải trống)         |
 4. Lệnh tệp
-| Command    | Description                                         |
-|---------|-----------------------------------------------|
-| `cat`   | Hiển thị nội dung của tệp                    |
-| `cp`    | Sao chép tệp                                  |
+| Command | Description                                      |
+|---------|--------------------------------------------------|
+| `cat`   | Hiển thị nội dung của tệp                        |
+| `cp`    | Sao chép tệp                                     |
 | `mv`    | Di chuyển tệp (cũng được sử dụng để đổi tên tệp) |
-| `rm`    | Xóa tệp đã cho                               |
-| `touch` | Tạo tệp trống hoặc thay đổi thời gian sửa đổi |
+| `rm`    | Xóa tệp đã cho                                   |
+| `touch` | Tạo tệp trống hoặc thay đổi thời gian sửa đổi    |
 5. Hệ thống tệp và quyền
 - read (r)
 - write (w)
@@ -237,16 +237,16 @@ Máy tính thường được chia thành hai thành phần chính đó là:
   $ chmod u+x,o+r temp
   $ ls -l temp
   -rwxr--r-- 1 user1 staff 0 Jun 11 11:44 temp
-| Giá trị bát phân (Octal) | Quyền truy cập         |
-|--------------------------|-------------------------|
-| `7`                       | `rwx` (Đọc, Ghi, Thực thi) |
-| `6`                       | `rw-` (Đọc, Ghi)        |
-| `5`                       | `r-x` (Đọc, Thực thi)   |
-| `4`                       | `r--` (Đọc)             |
-| `3`                       | `-wx` (Ghi, Thực thi)   |
-| `2`                       | `-w-` (Ghi)             |
-| `1`                       | `--x` (Thực thi)        |
-| `0`                       | `---` (Không có quyền)  |
+| Giá trị bát phân (Octal) | Quyền truy cập              |
+|--------------------------|-----------------------------|
+| `7`                      | `rwx` (Đọc, Ghi, Thực thi) |
+| `6`                      | `rw-` (Đọc, Ghi)           |
+| `5`                      | `r-x` (Đọc, Thực thi)      |
+| `4`                      | `r--` (Đọc)                |
+| `3`                      | `-wx` (Ghi, Thực thi)      |
+| `2`                      | `-w-` (Ghi)                |
+| `1`                      | `--x` (Thực thi)           |
+| `0`                      | `---` (Không có quyền)     |
 - Ví dụ
  $ touch abc
  $ ls –l abc
@@ -300,10 +300,10 @@ $ git commit –m “initial project version”
 $ git clone <url> [local dir name]
 *Lệnh Git*
 | Lệnh                          | Mô tả                                                                |
-|-------------------------------|-----------------------------------------------------------------------|
-| `git clone url [dir]`        | Sao chép kho lưu trữ Git để bạn có thể thêm vào đó                  |
-| `git add files`              | Thêm nội dung tệp vào vùng dàn dựng                                 |
-| `git commit`                 | Ghi lại ảnh chụp nhanh của khu vực dàn dựng                         |
+|-------------------------------|----------------------------------------------------------------------|
+| `git clone url [dir]`        | Sao chép kho lưu trữ Git để bạn có thể thêm vào đó                    |
+| `git add files`              | Thêm nội dung tệp vào vùng dàn dựng                                   |
+| `git commit`                 | Ghi lại ảnh chụp nhanh của khu vực dàn dựng                           |
 | `git status`                 | Xem trạng thái của các tệp trong thư mục làm việc và khu vực dàn dựng |
 | `git diff`                   | Hiển thị sự khác biệt giữa những gì được dàn dựng và những gì được sửa đổi nhưng chưa được dàn dựng |
 | `git help [command]`         | Nhận thông tin trợ giúp về một lệnh cụ thể                         |
