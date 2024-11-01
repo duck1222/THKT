@@ -53,14 +53,14 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 5. Chuyển đổi số giữa các cơ số
 ## Biểu diễn thông tin trong máy tính
 1. Đơn vị đo thông tin cơ bản
--| Đơn vị      | Viết tắt | Kích thước |
--|-------------|----------|--------------|
--| Bit         | -        | Đơn vị nhỏ nhất |
--| Byte        | B        | 8 Bit |
--| KiloByte    | KB       | 2^10 Byte = 1024 Byte |
--| MegaByte    | MB       | 2^10 KB = 1024 KB |
--| GigaByte    | GB       | 2^10 MB = 1024 MB |
--| TeraByte    | TB       | 2^10 GB = 1024 GB |
+| Đơn vị      | Viết tắt | Kích thước |
+|-------------|----------|--------------|
+| Bit         | -        | Đơn vị nhỏ nhất |
+| Byte        | B        | 8 Bit |
+| KiloByte    | KB       | 2^10 Byte = 1024 Byte |
+| MegaByte    | MB       | 2^10 KB = 1024 KB |
+| GigaByte    | GB       | 2^10 MB = 1024 MB |
+| TeraByte    | TB       | 2^10 GB = 1024 GB |
 3. Số hóa dữ liệu
 - Lấy mẫu tín hiệu
 - Chuyển đổi tín hiệu điện – giá trị số
