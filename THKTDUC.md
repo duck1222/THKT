@@ -144,10 +144,12 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 - Debian
 - Hat Linux
 5. Học ở đâu
+  
 | Tên    | Liên kết                                                                          |
 |------  |-----------------------------------------------------------------------------------|
 | GitHub | [Trang học GitHub](https://labex.io/courses/linux-basic-commands-practice-online) |
 | GitLab | [Trang học GitLub](https://vietjack.com/)                                         |
+
 6. Nơi thực hành
 - Lựa chọn 1: Máy tính trong phòng Lab
  + Sử dụng Virtual Box
@@ -156,6 +158,7 @@ Máy tính thường được chia thành hai thành phần chính đó là:
  + Đăng nhập bằng Email PU
  + Một tài khoản trên máy chủ Linux sẽ được tạo cho mỗi học sinh
 7. Hệ thống tệp Linux
+   
 | directory | description                                  |
 |---------|------------------------------------------------|
 | `/`     | Thư mục gốc chứa tất cả các thư mục            |
@@ -167,14 +170,17 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 | `/tmp`  | Chứa tệp tạm thời                              |
 | `/var`  | Chứa tệp thay đổi, chẳng hạn như tệp log       |
 | `/usr`  | Chứa tài nguyên hệ thống phổ quát              |
+
 8. Tên đường dẫn Linux
 9. Thư mục tương đối
+   
 | directory            | description                                   |
 |----------------------|-----------------------------------------------|
 | `.`                  | Tham khảo thư mục làm việc                    |
 | `..`                 | Tham khảo thư mục cha mẹ của thư mục làm việc |
 | `~username`          | Thư mục chính của người dùng `username`        |
 | `~/Desktop`          | Màn hình nền của người dùng                    |
+
 10. The Shell
 11. Cấu trúc dòng lệnh
 - command [options] [arguments]
@@ -183,6 +189,7 @@ Máy tính thường được chia thành hai thành phần chính đó là:
  + arguments: Các đối số (có thể có hoặc không), chỉ định dữ liệu đầu vào cho lệnh.
 ## Làm việc với lệnh Linux
 1. Lệnh Shell cơ bản
+   
 | Command   | Description                           |
 |-----------|---------------------------------------|
 | `pwd`     | Hiển thị thư mục làm việc hiện tại    |
@@ -190,14 +197,18 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 | `ls`   | Liệt kê các tệp trong thư mục làm việc   |
 | `man`  | Hiển thị hướng dẫn cho một lệnh          |
 | `exit` | Đăng xuất khỏi shell                     |
+
 2. Lệnh hệ thống
+   
 | Command | Description                           |
 |---------|---------------------------------------|
 | `clear` | Xóa tất cả đầu ra khỏi bảng điều khiển|
 | `date`  | Xuất ngày và giờ hệ thống             |
 | `cal`   | Xuất lịch tháng dưới dạng văn bản     |
 | `uname` | In thông tin về hệ thống hiện tại     |
+
 3. Lệnh thư mục
+   
 | Command    | Description                          |
 |---------|-----------------------------------------|
 | `ls`    | Liệt kê các tệp trong thư mục làm việc  |
@@ -205,7 +216,9 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 | `cd`    | Thay đổi thư mục làm việc               |
 | `mkdir` | Tạo một thư mục mới                     |
 | `rmdir` | Xóa thư mục đã cho (phải trống)         |
+
 4. Lệnh tệp
+
 | Command | Description                                      |
 |---------|--------------------------------------------------|
 | `cat`   | Hiển thị nội dung của tệp                        |
@@ -213,6 +226,7 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 | `mv`    | Di chuyển tệp (cũng được sử dụng để đổi tên tệp) |
 | `rm`    | Xóa tệp đã cho                                   |
 | `touch` | Tạo tệp trống hoặc thay đổi thời gian sửa đổi    |
+
 5. Hệ thống tệp và quyền
 - read (r)
 - write (w)
@@ -240,6 +254,7 @@ Máy tính thường được chia thành hai thành phần chính đó là:
   $ chmod u+x,o+r temp
   $ ls -l temp
   -rwxr--r-- 1 user1 staff 0 Jun 11 11:44 temp
+  
 | Giá trị bát phân (Octal) | Quyền truy cập              |
 |--------------------------|-----------------------------|
 | `7`                      | `rwx` (Đọc, Ghi, Thực thi) |
@@ -250,6 +265,7 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 | `2`                      | `-w-` (Ghi)                |
 | `1`                      | `--x` (Thực thi)           |
 | `0`                      | `---` (Không có quyền)     |
+
 - Ví dụ
  $ touch abc
  $ ls –l abc
@@ -302,6 +318,7 @@ $ git commit –m “initial project version”
  + Để sao chép một kho lưu trữ đã tồn tại vào thư mục hiện tại của bạn:
 $ git clone <url> [local dir name]
 *Lệnh Git*
+
 | Lệnh                          | Mô tả                                                                |
 |-------------------------------|----------------------------------------------------------------------|
 | `git clone url [dir]`        | Sao chép kho lưu trữ Git để bạn có thể thêm vào đó                    |
@@ -319,6 +336,7 @@ $ git clone <url> [local dir name]
 | `git merge`                  | Hợp nhất hai nhánh lại với nhau                                     |
 | `git log`                    | Hiển thị lịch sử các commit                                         |
 | `git tag`                    | Đánh dấu một commit cụ thể                                          |
+
 *Thêm & Commit các tệp tin*
 - The first time we asked a file to be tracked, and everytime before we commit a file we must add it to the staging area. This can be done with the following command
  + $ git add file1.txt file2.txt
@@ -331,6 +349,7 @@ working directory, but you will need to add again to have these changes saved in
  - Note: All of these commands are acting on the local copy of your repository. You will need to push them to remote to see these changes elsewhere.
 *Sử dụng các commit messages*
 - Mẫu thông điệp commit
+  
 | Mục đích               | Thông điệp commit                       |
 |-----------------------|-----------------------------------------|
 | Cập nhật tài liệu     | `docs: Cập nhật README`                |
@@ -343,6 +362,7 @@ working directory, but you will need to add again to have these changes saved in
 | Cập nhật công nghệ    | `build: Cập nhật phiên bản Node.js`    |
 | Cải thiện định dạng   | `style: Cải thiện định dạng mã`        |
 | Đổi tên nhánh         | `rename: Đổi tên nhánh 'develop' thành 'dev'` |
+
 *Trạng thái và sự khác biệt*
 - Để xem trạng thái của các tập tin của bạn trong thư mục làm việc Và khu vực staging:
  + $ git status or
