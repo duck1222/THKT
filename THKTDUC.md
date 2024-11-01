@@ -54,7 +54,6 @@ Máy tính thường được chia thành hai thành phần chính đó là:
 ## Biểu diễn thông tin trong máy tính
 1. Đơn vị đo thông tin cơ bản
 | Đơn vị      | Viết tắt | Kích thước |
-|-------------|----------|--------------|
 | Bit         | -        | Đơn vị nhỏ nhất |
 | Byte        | B        | 8 Bit |
 | KiloByte    | KB       | 2^10 Byte = 1024 Byte |
